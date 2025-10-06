@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(26, 32, 34);
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: darkorange;
+}
+
+p {
+  font-size: 1.2em;
+  color: limegreen;
+}
+.vocaloid {
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  margin: auto;
+
+}
+.vocaloid-display {
+  align-content: center;
+  align-self: center;
+  margin: auto;
+}

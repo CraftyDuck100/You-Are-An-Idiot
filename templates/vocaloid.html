@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block title %} {{ super() }} - Vocaloid{% endblock %} {% block content
+%}
+
+<h1>Cards</h1>
+
+<div class="vocaloid-display">
+    <iframe width="1446" height="813" src={{song}} allow="autoplay;" allowfullscreen class="hi"></iframe>
+<div class="vocaloid" style="width: 18rem;">
+    <br>
+    <div class="vocaloid-body">
+        <h2 class="card-title">{{song_name}} by {{song_artist}}</h5>
+        <a href="{{url_for('vocaloid')}}" class="btn btn-primary">New Song</a>
+    </div>
+</div>
+</div>
+
+{% endblock %}
