@@ -1,12 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(26, 32, 34);
   text-align: center;
   padding: 30px;
 }
-
+input {
+  color: limegreen
+}
 h1 {
-  color: darkorange;
+  color: limegreen;
 }
 
 p {
